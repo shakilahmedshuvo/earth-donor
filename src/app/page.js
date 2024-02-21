@@ -1,4 +1,5 @@
 import Banner from "@/Components/Banner/Banner";
+import BecomeVolunteer from "@/Components/BecomeVolunteer/BecomeVolunteer";
 import WhoWeAre from "@/Components/WhoWeAre/WhoWeAre";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <main>
       <Banner />
       <WhoWeAre />
+      <BecomeVolunteer />
     </main>
   );
 }
