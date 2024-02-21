@@ -54,9 +54,22 @@ const BecomeVolunteer = () => {
                     alt=""
                 />
 
-                <div className="absolute top-0 text-white bg-[#192515] bg-opacity-60 w-full h-full">
-
-                    
+                <div className="absolute top-0 text-white bg-[#192515] bg-opacity-60 w-full h-full text-center">
+                    <h2 className="text-4xl font-extrabold pt-56">
+                        Make a Statement In Support of The
+                        <br />
+                        Environment
+                    </h2>
+                    <p className="text-gray-300 font-normal text-base mt-6">
+                        Venenatis conubia porta sapien rhoncus amet fringilla odio commodo pede curabitur.
+                        <br />
+                        Maximus vestibulum enim donec vitae viverra hendrerit. Pede vitae dictumst
+                        <br />
+                        sollicitudin odio ornare nulla.
+                    </p>
+                    <button className="bg-[#FFC107] py-2 px-6 rounded-sm text-black font-medium mt-6">
+                        Become A Volunteer
+                    </button>
                 </div>
             </div>
             {/* img section end */}
