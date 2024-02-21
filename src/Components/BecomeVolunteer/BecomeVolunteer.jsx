@@ -14,7 +14,7 @@ const BecomeVolunteer = () => {
                     <div className="text-center">
                         <h2>$256M</h2>
                         <p className="text-lg text-gray-500 mt-1">
-                            We've Helped Raise
+                            Weve Helped Raise
                         </p>
                     </div>
 
