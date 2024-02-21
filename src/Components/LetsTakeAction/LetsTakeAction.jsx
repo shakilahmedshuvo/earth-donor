@@ -12,7 +12,7 @@ const LetsTakeAction = () => {
     }, []);
 
     return (
-        <div className="max-w-7xl mx-auto mt-20">
+        <div className="max-w-7xl mx-auto mt-24">
 
             <div className="grid grid-cols-2">
                 <div>
@@ -41,7 +41,7 @@ const LetsTakeAction = () => {
             </div>
 
             {/* card section start */}
-            <div className="grid lg:grid-cols-3">
+            <div className="grid lg:grid-cols-3 gap-5 mt-12">
                 {
                     data.map((data) => (
                         <LetsTakeActionSingleCard
