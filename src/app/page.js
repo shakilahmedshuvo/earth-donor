@@ -1,7 +1,9 @@
 import Banner from "@/Components/Banner/Banner";
 import BecomeVolunteer from "@/Components/BecomeVolunteer/BecomeVolunteer";
+import HowItWorks from "@/Components/HowItWorks/HowItWorks";
 import LetsTakeAction from "@/Components/LetsTakeAction/LetsTakeAction";
 import WhoWeAre from "@/Components/WhoWeAre/WhoWeAre";
+import WhyJoinUs from "@/Components/WhyJoinUs/WhyJoinUs";
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
       <WhoWeAre />
       <BecomeVolunteer />
       <LetsTakeAction />
+      <HowItWorks />
+      <WhyJoinUs />
     </main>
   );
 }
