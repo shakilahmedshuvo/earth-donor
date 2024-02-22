@@ -50,7 +50,7 @@ const WordsFromVolunteersSlider = () => {
                     {/* rating section end */}
 
                     <p className='text-gray-500 mt-5 mb-4'>
-                        I had the privilege of participating in a tree planting event organized by this non-profit organization, and it was a truly enriching experience. The team's dedication to environmental conservation shone through in every aspect of the event.
+                        I had the privilege of participating in a tree planting event organized by this non-profit organization, and it was a truly enriching experience. The teams dedication to environmental conservation shone through in every aspect of the event.
                     </p>
 
                     <div className='flex justify-between pt-2 pb-3'>
@@ -93,7 +93,7 @@ const WordsFromVolunteersSlider = () => {
                     {/* rating section end */}
 
                     <p className='text-gray-500 mt-5 mb-4'>
-                        I had the privilege of participating in a tree planting event organized by this non-profit organization, and it was a truly enriching experience. The team's dedication to environmental conservation shone through in every aspect of the event.
+                        I had the privilege of participating in a tree planting event organized by this non-profit organization, and it was a truly enriching experience. The teams dedication to environmental conservation shone through in every aspect of the event.
                     </p>
 
                     <div className='flex justify-between pt-2 pb-3'>
