@@ -13,7 +13,7 @@ const OrganizationYouCanTrust = () => {
 
                 <div className="grid grid-cols-2">
                     <div>
-                        <h2 class="text-4xl font-bold">
+                        <h2 className="text-4xl font-bold">
                             An Organization You Can Trust
                         </h2>
                         <p className="mt-5 text-gray-500 font-normal">
@@ -30,26 +30,31 @@ const OrganizationYouCanTrust = () => {
                             height={1000}
                             src={IconOne}
                             alt="" />
+
                         <Image
                             width={1000}
                             height={1000}
                             src={IconTwo}
                             alt="" />
+
                         <Image
                             width={1000}
                             height={1000}
                             src={IconThree}
                             alt="" />
+
                         <Image
                             width={1000}
                             height={1000}
                             src={IconFour}
                             alt="" />
+
                         <Image
                             width={1000}
                             height={1000}
                             src={IconFive}
                             alt="" />
+
                         <Image
                             width={1000}
                             height={1000}
@@ -57,9 +62,7 @@ const OrganizationYouCanTrust = () => {
                             alt="" />
 
                     </div>
-
                 </div>
-
             </div>
         </div>
     );
