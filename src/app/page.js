@@ -7,6 +7,7 @@ import MorePeople from "@/Components/MorePeople/MorePeople";
 import OrganizationYouCanTrust from "@/Components/OrganizationYouCanTrust/OrganizationYouCanTrust";
 import WhoWeAre from "@/Components/WhoWeAre/WhoWeAre";
 import WhyJoinUs from "@/Components/WhyJoinUs/WhyJoinUs";
+import WordsFromVolunteers from "@/Components/WordsFromVolunteers/WordsFromVolunteers";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <WhyJoinUs />
       <OrganizationYouCanTrust />
       <MorePeople />
+      <WordsFromVolunteers />
       <JoinVolunteer />
     </main>
   );

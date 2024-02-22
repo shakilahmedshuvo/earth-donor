@@ -1,13 +1,17 @@
 "use client"
 import MorePeopleSlider from "./MorePeopleSlider";
+import MorePeopleTextSection from "./MorePeopleTextSection";
 
 const MorePeople = () => {
     return (
-        <div>
+        <div className="bg-[#F6F6F6]">
             {/* slider section start */}
             <MorePeopleSlider />
             {/* slider section end */}
-            
+
+            {/* more people text section start */}
+            <MorePeopleTextSection />
+            {/* more people text section end */}
         </div>
     );
 };
