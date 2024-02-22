@@ -6,7 +6,7 @@ import JoinVolunteerTextSection from "./JoinVolunteerTextSection";
 
 const JoinVolunteer = () => {
     return (
-        <div className="relative my-20">
+        <div className="relative mt-20">
             <Image
                 className="w-full"
                 width={1000}
