@@ -1,6 +1,6 @@
 const HowItWorks = () => {
     return (
-        <div className="bg-[#F6F6F6] mt-28 py-28">
+        <div className="bg-[#F6F6F6] mt-28 pt-28 pb-20">
             <div className="max-w-7xl mx-auto">
 
                 {/* text section start */}
