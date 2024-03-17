@@ -12,7 +12,7 @@ const LetsTakeAction = () => {
     }, []);
 
     return (
-        <div className="max-w-7xl mx-auto mt-24">
+        <div className="max-w-7xl mx-auto lg:mt-24">
 
             <div className="grid lg:grid-cols-2">
                 <div>

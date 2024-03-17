@@ -4,26 +4,26 @@ import Image from "next/image";
 
 const WhoWeAre = () => {
     return (
-        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 mt-20">
+        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 lg:mt-20 mt-14">
 
-            <div>
-                <h2 className="text-xl text-[#4CAF50] font-bold ">
+            <div className="px-3 lg:px-0">
+                <h2 className="text-xl text-[#4CAF50] font-bold">
                     Who We Are
                 </h2>
 
-                <h2 className="text-4xl font-bold mt-6">
+                <h2 className="lg:text-4xl text-3xl font-bold lg:mt-6 mt-2">
                     Eco-friendly actions, global
                     <br />
                     satisfaction
                 </h2>
 
-                <p className="text-xl mt-6">
+                <p className="lg:text-xl text-base mt-3 lg:mt-6">
                     Rutrum pede id etiam sit quam mus nulla vulputate elementum.
                     <br />
                     Taciti vitae platea sollicitudin tempor diam.
                 </p>
 
-                <p className="text-lg mt-6 text-gray-600">
+                <p className="lg:text-lg text-base mt-3 lg:mt-6 text-gray-600">
                     Sit lacus montes per volutpat convallis class viverra purus donec
                     <br />
                     consectetuer ac. Class mi lectus netus porta posuere nunc. Est at
@@ -39,7 +39,7 @@ const WhoWeAre = () => {
             </div>
 
             {/* img section start */}
-            <div className="">
+            <div className="mt-10 lg:mt-0">
                 <div>
                     <Image
                         width={1000}
@@ -47,7 +47,7 @@ const WhoWeAre = () => {
                         src={pictureTwo}
                         alt="" />
                 </div>
-                <div className="relative bottom-28 right-8">
+                <div className="relative lg:bottom-28 lg:right-8 bottom-6 lg:block flex items-center justify-center">
                     <Image
                         width={300}
                         height={200}

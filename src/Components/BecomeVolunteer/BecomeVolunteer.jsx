@@ -9,32 +9,32 @@ const BecomeVolunteer = () => {
                 <hr />
 
                 {/* number section start */}
-                <div className="grid lg:grid-cols-4 text-6xl text-[#4CAF50] font-bold py-10">
+                <div className="grid lg:grid-cols-4 grid-cols-3 lg:text-6xl text-3xl text-[#4CAF50] font-bold py-10 px-2">
 
                     <div className="text-center">
                         <h2>$256M</h2>
-                        <p className="text-lg text-gray-500 mt-1">
+                        <p className="lg:text-lg text-sm text-gray-500 mt-1">
                             Weve Helped Raise
                         </p>
                     </div>
 
                     <div className="text-center">
                         <h2>37k+</h2>
-                        <p className="text-lg text-gray-500 mt-1">
+                        <p className="lg:text-lg text-sm text-gray-500 mt-1">
                             Projects Funded
                         </p>
                     </div>
 
                     <div className="text-center">
                         <h2>40+</h2>
-                        <p className="text-lg text-gray-500 mt-1">
+                        <p className="lg:text-lg text-sm text-gray-500 mt-1">
                             Countries Worldwide
                         </p>
                     </div>
 
-                    <div className="text-center">
+                    <div className="text-center lg:col-span-1 col-span-3 lg:mt-0 mt-3">
                         <h2>89k+</h2>
-                        <p className="text-lg text-gray-500 mt-1">
+                        <p className="lg:text-lg text-sm text-gray-500 mt-1">
                             Volunteers Connected
                         </p>
                     </div>
@@ -55,12 +55,12 @@ const BecomeVolunteer = () => {
                 />
 
                 <div className="absolute top-0 text-white bg-[#192515] bg-opacity-60 w-full h-full text-center">
-                    <h2 className="text-4xl font-extrabold pt-56">
+                    <h2 className="lg:text-4xl text-xl font-extrabold lg:pt-56 pt-14">
                         Make a Statement In Support of The
                         <br />
                         Environment
                     </h2>
-                    <p className="text-gray-300 font-normal text-base mt-6">
+                    <p className="text-gray-300 font-normal text-base lg:mt-6 lg:block hidden">
                         Venenatis conubia porta sapien rhoncus amet fringilla odio commodo pede curabitur.
                         <br />
                         Maximus vestibulum enim donec vitae viverra hendrerit. Pede vitae dictumst
