@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const WhoWeAre = () => {
     return (
-        <div className="max-w-7xl mx-auto grid grid-cols-2 mt-20">
+        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 mt-20">
 
             <div>
                 <h2 className="text-xl text-[#4CAF50] font-bold ">

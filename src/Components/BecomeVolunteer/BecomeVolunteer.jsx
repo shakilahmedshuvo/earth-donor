@@ -9,7 +9,7 @@ const BecomeVolunteer = () => {
                 <hr />
 
                 {/* number section start */}
-                <div className="grid grid-cols-4 text-6xl text-[#4CAF50] font-bold py-10">
+                <div className="grid lg:grid-cols-4 text-6xl text-[#4CAF50] font-bold py-10">
 
                     <div className="text-center">
                         <h2>$256M</h2>

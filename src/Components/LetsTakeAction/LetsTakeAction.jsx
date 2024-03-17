@@ -14,7 +14,7 @@ const LetsTakeAction = () => {
     return (
         <div className="max-w-7xl mx-auto mt-24">
 
-            <div className="grid grid-cols-2">
+            <div className="grid lg:grid-cols-2">
                 <div>
                     <h2 className="text-xl text-[#4CAF50] font-bold">
                         Lets Take Action

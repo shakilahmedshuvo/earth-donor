@@ -5,8 +5,8 @@ import { FaPhoneAlt } from "react-icons/fa";
 const Footer = () => {
     return (
         <div className="bg-[#0D1F0E] text-white">
-            <div className="max-w-7xl mx-auto">
-                <div className="grid grid-cols-6 pt-20">
+            <div className="max-w-7xl mx-auto px-6">
+                <div className="grid lg:grid-cols-6 pt-20">
 
                     <div>
                         <h2 className="font-semibold text-lg pb-4">
@@ -54,7 +54,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="col-span-2">
+                    <div className="col-span-2 mt-6 lg:mt-0">
                         <h2 className="font-semibold text-lg pb-4">
                             Contacts
                         </h2>
@@ -71,7 +71,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="col-span-2">
+                    <div className="col-span-2 mt-6 lg:mt-0">
                         <h2 className="font-semibold text-lg pb-4">
                             Subscribe Newsletter
                         </h2>
@@ -98,8 +98,8 @@ const Footer = () => {
                 {/* hr line */}
                 <hr className="border border-gray-800 mt-14 mb-8" />
 
-                <div className="grid grid-cols-6">
-                    <div>
+                <div className="grid lg:grid-cols-6">
+                    <div className="col-span-6 lg:col-span-1">
                         <h2 className="font-semibold text-xl pb-4">
                             Earth Donor
                         </h2>

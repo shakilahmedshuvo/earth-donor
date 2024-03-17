@@ -6,7 +6,7 @@ import { LuHeartHandshake } from "react-icons/lu";
 
 const MorePeopleTextSection = () => {
     return (
-        <div className="grid grid-cols-2">
+        <div className="grid lg:grid-cols-2">
 
             <div>
                 <Image

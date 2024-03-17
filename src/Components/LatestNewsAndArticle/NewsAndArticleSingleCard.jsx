@@ -6,7 +6,7 @@ const NewsAndArticleSingleCard = ({ data }) => {
     const { img, title, date, des } = data;
 
     return (
-        <div className="grid grid-cols-8">
+        <div className="grid lg:grid-cols-8">
             <Image
                 className="w-full col-span-2"
                 width={1000}

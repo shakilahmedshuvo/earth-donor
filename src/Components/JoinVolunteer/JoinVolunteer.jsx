@@ -16,7 +16,8 @@ const JoinVolunteer = () => {
             />
 
             <div className="bg-[#1F3E1F] top-0 bg-opacity-65 absolute w-full h-full">
-                <div className="max-w-7xl mx-auto grid grid-cols-5 w-full mt-52">
+                <div
+                    className="max-w-7xl mx-auto lg:grid grid-cols-5 w-full mt-52">
 
                     {/* input field section start */}
                     <JoinVolunteerInputSection />

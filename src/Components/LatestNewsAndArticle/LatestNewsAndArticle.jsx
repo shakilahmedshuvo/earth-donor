@@ -16,7 +16,7 @@ const LatestNewsAndArticle = () => {
 
     return (
         <div className="bg-[#F6F6F6]">
-            <div className="max-w-7xl mx-auto grid grid-cols-2 gap-24 pt-36">
+            <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-24 pt-36">
 
                 {/* all news and article section start */}
                 <div>

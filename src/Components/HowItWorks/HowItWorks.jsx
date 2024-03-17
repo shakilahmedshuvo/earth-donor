@@ -4,7 +4,7 @@ const HowItWorks = () => {
             <div className="max-w-7xl mx-auto">
 
                 {/* text section start */}
-                <div className="grid grid-cols-4">
+                <div className="grid lg:grid-cols-4">
                     <div>
                         <h2 className="text-4xl font-bold">
                             <span className="border-b-4 border-[#FFC107] pb-3">
@@ -23,7 +23,7 @@ const HowItWorks = () => {
                 {/* text section end */}
 
                 {/* card section start */}
-                <div className="grid grid-cols-4 gap-5 mt-12">
+                <div className="grid lg:grid-cols-4 gap-5 mt-12">
 
                     <div className="border hover:border-white hover:bg-white hover:shadow-md hover:scale-105 px-8 py-10 duration-300 cursor-pointer">
                         <h2 className="font-bold text-2xl">

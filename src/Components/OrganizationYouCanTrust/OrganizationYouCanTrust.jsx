@@ -11,7 +11,7 @@ const OrganizationYouCanTrust = () => {
         <div className="bg-[#F6F6F6] pt-96 pb-20">
             <div className="max-w-7xl mx-auto">
 
-                <div className="grid grid-cols-2">
+                <div className="grid lg:grid-cols-2">
                     <div>
                         <h2 className="text-4xl font-bold">
                             An Organization You Can Trust
