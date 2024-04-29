@@ -12,14 +12,14 @@ const LetsTakeAction = () => {
     }, []);
 
     return (
-        <div className="max-w-7xl mx-auto lg:mt-24">
+        <div className="max-w-7xl mx-auto lg:mt-24 mt-24">
 
-            <div className="grid lg:grid-cols-2">
+            <div className="grid lg:grid-cols-2 ms-3 lg:ms-0">
                 <div>
                     <h2 className="text-xl text-[#4CAF50] font-bold">
                         Lets Take Action
                     </h2>
-                    <h2 className="text-4xl font-bold mt-6">
+                    <h2 className="text-4xl font-bold lg:mt-6 mt-3">
                         Speak up and take action for
                         <br />
                         nature, for a sustainable future
@@ -41,7 +41,7 @@ const LetsTakeAction = () => {
             </div>
 
             {/* card section start */}
-            <div className="grid lg:grid-cols-3 gap-5 mt-12">
+            <div className="grid lg:grid-cols-3 mx-2 lg:mx-0 gap-5 mt-12">
                 {
                     data.map((data) => (
                         <LetsTakeActionSingleCard

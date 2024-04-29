@@ -12,8 +12,7 @@ const LetsTakeActionSingleCard = ({ data }) => {
                 height={1000}
                 width={1000}
                 src={img}
-                alt=""
-            />
+                alt="" />
 
             <div className="absolute bottom-0 bg-[#182613] bg-opacity-50 w-full text-white px-8 pt-7 pb-7">
                 <h2 className="text-3xl font-semibold">
