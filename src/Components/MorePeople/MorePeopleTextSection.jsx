@@ -8,7 +8,7 @@ const MorePeopleTextSection = () => {
     return (
         <div className="grid lg:grid-cols-2">
 
-            <div>
+            <div className="lg:block hidden">
                 <Image
                     className="w-full"
                     width={1000}
@@ -18,7 +18,7 @@ const MorePeopleTextSection = () => {
                 />
             </div>
 
-            <div className="px-20 pt-24">
+            <div className="px-2 lg:px-20 pt-16 lg:pt-24">
                 <h2 className="text-4xl font-semibold">
                     <span className="border-t-4 border-[#4CAF50] pt-3">Mo</span>re People, More impact
                 </h2>

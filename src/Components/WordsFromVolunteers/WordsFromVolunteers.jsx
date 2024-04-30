@@ -2,7 +2,7 @@ import WordsFromVolunteersSlider from "./WordsFromVolunteersSlider";
 
 const WordsFromVolunteers = () => {
     return (
-        <div className="max-w-7xl mx-auto pt-24">
+        <div className="max-w-7xl mx-auto pt-16 lg:pt-24">
             <div className="text-center">
                 <h2 className="text-4xl font-bold">
                     Words From Volunteers

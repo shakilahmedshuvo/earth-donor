@@ -5,7 +5,7 @@ import WhyJoinUsCardImgThree from "@/assets/WhyJoinUsCardImgThree.jpg";
 
 const WhyJoinUsSingleCard = () => {
     return (
-        <div className="grid lg:grid-cols-3 gap-5 mt-16 pb-10">
+        <div className="grid lg:grid-cols-3 gap-5 lg:mt-16 mt-8 pb-10 lg:mx-0 mx-2">
 
             {/* first card section start */}
             <div className="bg-white shadow-md group group/item cursor-pointer">

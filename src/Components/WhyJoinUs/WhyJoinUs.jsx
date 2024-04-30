@@ -17,15 +17,15 @@ const WhyJoinUs = () => {
 
                     {/* title section start */}
                     <div>
-                        <h2 className="text-xl text-[#4CAF50] font-bold pt-44">
+                        <h2 className="text-xl text-[#4CAF50] font-bold lg:pt-44 pt-6">
                             Why Join Us
                         </h2>
 
-                        <h2 className="text-4xl text-white font-extrabold mt-6">
+                        <h2 className="text-2xl lg:text-4xl text-white font-extrabold lg:mt-6 mt-3">
                             Sustainable actions, hopeful reactions
                         </h2>
 
-                        <p className="text-gray-300 font-medium text-sm mt-6">
+                        <p className="text-black lg:text-gray-300 font-medium text-sm mt-8 lg:mt-6 mx-2 lg:mx-0">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
                             <br />
                             mattis, pulvinar dapibus leo.
