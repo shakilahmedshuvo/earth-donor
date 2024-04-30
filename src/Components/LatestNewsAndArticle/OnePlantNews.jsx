@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const OnePlantNews = () => {
     return (
-        <div className="bg-white shadow-xl h-fit border-b-8 border-[#4CAF50]">
+        <div className="bg-white shadow-xl h-fit border-b-8 border-[#4CAF50] mb-6 lg:mb-0 mx-3 lg:mx-0 mt-12 lg:mt-0">
             {/* img section start */}
             <div className="relative">
                 <Image

@@ -6,7 +6,7 @@ const NewsAndArticleSingleCard = ({ data }) => {
     const { img, title, date, des } = data;
 
     return (
-        <div className="grid lg:grid-cols-8">
+        <div className="grid grid-cols-8">
             <Image
                 className="w-full col-span-2"
                 width={1000}
@@ -14,8 +14,8 @@ const NewsAndArticleSingleCard = ({ data }) => {
                 src={img}
                 alt=""
             />
-            <div className="col-span-6 ms-5 cursor-pointer">
-                <h2 className="font-extrabold text-gray-800 hover:text-[#4CAF50] duration-300 text-lg">
+            <div className="col-span-6 lg:ms-5 ms-3 cursor-pointer">
+                <h2 className="font-extrabold text-gray-800 hover:text-[#4CAF50] duration-300 lg:text-lg text-base">
                     {title}
                 </h2>
                 <p className="text-xs my-1 text-gray-500">
