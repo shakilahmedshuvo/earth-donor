@@ -6,18 +6,18 @@ import JoinVolunteerTextSection from "./JoinVolunteerTextSection";
 
 const JoinVolunteer = () => {
     return (
-        <div className="relative mt-20">
+        <div className="relative lg:pt-20 pt-16">
             <Image
-                className="w-full"
+                className="w-full lg:block hidden"
                 width={1000}
                 height={1000}
                 src={JoinVolunteerImg}
                 alt=""
             />
 
-            <div className="bg-[#1F3E1F] top-0 bg-opacity-65 absolute w-full h-full">
+            <div className="lg:bg-[#1F3E1F] lg:top-0 lg:bg-opacity-65 lg:absolute w-full h-full">
                 <div
-                    className="max-w-7xl mx-auto lg:grid grid-cols-5 w-full mt-52">
+                    className="max-w-7xl mx-auto lg:grid grid-cols-5 w-full lg:mt-52 mt-0">
 
                     {/* input field section start */}
                     <JoinVolunteerInputSection />

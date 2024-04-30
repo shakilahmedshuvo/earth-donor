@@ -2,7 +2,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 const JoinVolunteerInputSection = () => {
     return (
-        <div className="col-span-2 border-t-8 border-[#4CAF50] bg-white shadow-lg">
+        <div className="col-span-2 border-t-8 border-[#4CAF50] bg-white shadow-lg mx-3 lg:mx-0">
             <div className="grid grid-cols-2 gap-3 px-12 py-16 text-sm">
 
                 {/* name section */}

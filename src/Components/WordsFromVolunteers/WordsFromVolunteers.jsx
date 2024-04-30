@@ -13,7 +13,9 @@ const WordsFromVolunteers = () => {
             </div>
 
             {/* review section start */}
-            <WordsFromVolunteersSlider />
+            <div className="mx-3 lg:mx-0">
+                <WordsFromVolunteersSlider />
+            </div>
             {/* review section end */}
 
         </div>

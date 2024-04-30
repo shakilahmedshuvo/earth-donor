@@ -19,7 +19,7 @@ const WordsFromVolunteersSlider = () => {
                 disableOnInteraction: false,
             }}
             modules={[Autoplay]}
-            className="mySwiper mt-14"
+            className="mySwiper lg:mt-14 mt-8"
             breakpoints={{
                 0: {
                     slidesPerView: 1,
