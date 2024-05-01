@@ -1,1 +1,1 @@
-* Live Link: https://earth-donor-shakilahmedshuvo.vercel.app/
+* Live Link: https://earth-donor.vercel.app/

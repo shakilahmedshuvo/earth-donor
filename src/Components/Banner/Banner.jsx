@@ -13,7 +13,7 @@ const Banner = () => {
                     alt="" />
             </div>
 
-            <div className="absolute top-0 text-white pt-6 lg:pt-96 mx-auto w-full h-full text-center bg-black bg-opacity-45">
+            <div className="absolute top-0 text-white pt-14 lg:pt-96 mx-auto w-full h-full text-center bg-black bg-opacity-45">
 
                 <h2 className="lg:text-2xl text-xl text-center">
                     Make the World Better
